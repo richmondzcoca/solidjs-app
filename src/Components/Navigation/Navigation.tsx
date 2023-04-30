@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-import { AppLink } from '../../custom/AppLink';
+import { AppLink } from '../../Custom/AppLink';
 
 export const Navigation: Component = () => {
   return (
