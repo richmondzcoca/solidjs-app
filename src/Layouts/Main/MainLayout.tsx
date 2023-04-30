@@ -1,11 +1,12 @@
 import type { ParentComponent } from 'solid-js';
+import { Header } from '../../Components/Header';
 import { Navigation } from '../../Components/Navigation';
 
 export const MainLayout: ParentComponent = (props) => {
   return (
     <>
-      <h1>Main Layout Test</h1>
-      <Navigation />
+      <Header />
+      {/* <Navigation /> */}
       {props.children}
     </>
   );

@@ -1,9 +1,9 @@
 import type { Component } from 'solid-js';
 
-export const About: Component = () => {
+export const Auth: Component = () => {
   return (
     <>
-        <h1>About</h1>
+        <h1>Auth</h1>
     </>
   );
 };

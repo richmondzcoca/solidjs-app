@@ -2,7 +2,7 @@ import type { Component } from 'solid-js';
 
 import { Route, Routes } from '@solidjs/router';
 import { Home } from './Pages/Home';
-import { About } from './Pages/About';
+import { Auth } from './Pages/Auth';
 import { MainLayout } from './Layouts/Main';
 
 const App: Component = () => {
@@ -11,7 +11,7 @@ const App: Component = () => {
       <MainLayout>
         <Routes>
           <Route path={'/'} component={Home} />
-          <Route path={'/about'} component={About} />
+          <Route path={'/auth'} component={Auth} />
         </Routes>
       </MainLayout>
     </>

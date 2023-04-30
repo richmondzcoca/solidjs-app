@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "SanomatGrabApp";
+  src: url("./assets/fonts/sanomat/SanomatGrabWeb-RegularTH.woff2");
+}
+
+@font-face {
+  font-family: "SanomatGrabApp Light";
+  src: url("./assets/fonts/sanomat/SanomatGrabWeb-LightTH.woff2");
+}
+
+@font-face {
+  font-family: "SanomatGrabApp Medium";
+  src: url("./assets/fonts/sanomat/SanomatGrabWeb-MediumTH.woff2");
+}
+
+@font-face {
+  font-family: "SanomatGrabApp Bold";
+  src: url("./assets/fonts/sanomat/SanomatGrabWeb-Bold.woff2");
+  font-weight: bolder;
+}
+
+body {
+  margin: 0;
+  font-family: 'SanomatGrabApp';
+  line-height: 1.42857143;
+}
