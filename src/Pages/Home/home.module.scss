@@ -46,5 +46,61 @@
                 margin-right: 10px;
             }
         }
+
+        .distance {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 20px;
+                margin-right: 8px;
+            }
+
+            .dot {
+                margin-inline: 10px;
+            }
+        }
+    }
+
+    .openingHours {
+        margin-top: 10px;
+
+        .text {
+            font-size: 14px;
+            line-height: 1.42857143;
+            font-weight: 600;
+            color: #676767;
+            margin-right: 42px;
+        }
+
+        .time {
+            margin-left: 5px;
+        }
+    }
+
+    .promoWrapper {
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid #f0efef;
+
+        button {
+            border: none;
+            background: none;
+            padding-bottom: 2px;
+            color: #00a5cf;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .promo {
+            display: flex;
+
+            span {
+                margin-inline: 8px 16px;
+            }
+        }
     }
 }

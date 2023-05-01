@@ -1,0 +1,32 @@
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(28,28,28,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        display: flex;
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 12px 20px 0 rgba(86,93,106,.2), 0 3px 6px 0 rgba(0,0,0,.1);
+        width: 100%;
+        max-width: calc(100vw - 24px);
+        max-height: 80vh;
+        min-height: 20vh;
+
+        .content {
+            width: 100%;
+            padding: 14px;
+            position: relative;
+
+            .close {
+                position: absolute;
+                right: 14px;
+                top: 14px;
+                display: flex;
+            }
+        }
+    }
+}
