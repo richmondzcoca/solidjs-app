@@ -1,4 +1,8 @@
 .home {
+    .container {
+        padding-inline: 12px;
+    }
+    
     .imageContainer {
         position: relative;
         width: 100%;
@@ -11,6 +15,36 @@
             top: 0;
             left: 0;
             object-fit: cover;
+        }
+    }
+
+    .title {
+        h1 {
+            font-size: 1.71428571rem;
+            line-height: 1.33333333;
+            word-break: break-word;
+            margin-bottom: 10px;
+        }
+    }
+
+    h3, span {
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #676767;
+        font-family: 'SanomatGrabApp Light';
+    }
+
+    .ratingAndDistance {
+        display: flex;
+        
+        .rating {
+            margin-right: 44px;
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 10px;
+            }
         }
     }
 }
