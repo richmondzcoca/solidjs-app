@@ -1,9 +1,11 @@
 import type { Component } from 'solid-js';
 
-export const Auth: Component = () => {
+const Auth: Component = () => {
   return (
     <>
         <h1>Auth</h1>
     </>
   );
 };
+
+export default Auth;
